@@ -1,0 +1,32 @@
+<div id="layout" [class.active]="isNavActive">
+  <a href="#menu" id="menuLink" class="menu-link" (click)="isNavActive=!isNavActive">
+    <svg viewBox="0 0 8 8" class="icon">
+      <use xlink:href="open-iconic.svg#menu" class="icon-menu"></use>
+    </svg>
+  </a>
+  <div id="menu">
+    <div class="pure-menu">
+      <span class="pure-menu-heading">Trail Commons</span>
+      <ul class="pure-menu-list">
+                <!--
+        <li class="pure-menu-link">
+          <a [routerLink]="['Home']">Home</a>
+        </li>
+        <li class="pure-menu-link">
+          <a [routerLink]="['GPS']">GPS</a>
+        </li>
+        <li class="pure-menu-link">
+          <a [routerLink]="['About']">About</a>
+        </li>
+                -->
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <div class="content">
+      <!--
+      <router-outlet></router-outlet>
+      -->
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+#menuLink svg {
+    position:absolute;
+    left: 14px;
+    top: 6px;
+}
+
+#menuLink svg use {
+    fill: white;
+}
