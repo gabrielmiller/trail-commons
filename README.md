@@ -1,4 +1,4 @@
-# Trail Commons Client
+# Trail Commons
 
 ## About
 This is a pet project for collecting and displaying geospatial data. 
